@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+(function() {
+    'use strict';
+
+    angular.module('${1:kmdot}')
+
+    .directive('${2:name}', function(${3}) {
+        return {
+            restrict: '${4:EA}',
+            templateUrl: '${4:template}/${4:template}.html',
+            scope: {}
+        };
+    });
+})();
+]]></content>
+    <scope>source.js</scope>
+    <tabTrigger>ngdirective</tabTrigger>
+</snippet>
